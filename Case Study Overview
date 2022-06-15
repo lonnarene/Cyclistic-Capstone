@@ -5,4 +5,9 @@ Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, an
 
 Process
 Using Cyclistic's available data, I analyzed 2019_Q2 - 2021_Q1 data, allowing for a full year's worth of analysis. 
-The data is available here: https://divvy-tripdata.s3.amazonaws.com/index.html and it's available throught this license: https://www.divvybikes.com/data-license-agreement
+The data is available here: https://divvy-tripdata.s3.amazonaws.com/index.html and it's available throught this license: https://www.divvybikes.com/data-license-agreement. 
+R has been used to clean and analyze the data due to the size of the datasets.
+The code for the cleaning process was originally created by Kevin Hartman. He is also cited in the code itself. 
+The cleaning process involved removing rides less than 60 seconds, latitutude and longitude, birth year, and gender. 
+I then merged all quarters into one cohesive data frame named "all_trips_v2" and saved the file as a csv named "cleaned_merged_trip_data". 
+
