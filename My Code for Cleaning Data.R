@@ -138,7 +138,7 @@ aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = max)
 aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual, FUN = min)
 
 # Order the days of the week and show the average ride length broken out by
-# rider type and days of the week. 
+# rider type and days of the week or month.
 
 all_trips_v2$day_of_week <- ordered(all_trips_v2$day_of_week, levels=c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))
 aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)
@@ -152,7 +152,7 @@ all_trips_v2 %>%
 
 all_trips_v2 %>% 
   mutate(weekday = wday(started_at, label = TRUE)) %>%  #creates weekday field using wday()
-  group_by(member_casual, month) %>%  #groups by usertype and weekday
+  group_by(member_casual, month) %>%  #groups by usertype and month
   summarise(number_of_rides = n()							#calculates the number of rides and average duration 
             ,average_duration = mean(ride_length)) %>% 		# calculates the average duration
   arrange(member_casual, month)								# sorts
