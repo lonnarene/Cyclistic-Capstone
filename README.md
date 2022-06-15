@@ -18,13 +18,13 @@ I then merged all quarters into one cohesive data frame named "all_trips_v2" and
 
 ## 3: Analyze and Visualize
 With 30% of Cyclistic rides commuting to work each day, this is clearly accountable when looking at the data. 
-My visualization on Tableau so this trend effectively. 
+My visualization on Tableau show this trend effectively. 
 https://public.tableau.com/views/CyclisticCaseStudy_16552447953180/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
-It's clear to see that despite the average ride length for members being shorter, they are taking many more trips. It appears that most commuters using the bikes Monday-Friday are roughly a 15 minute ride from their end point. 
+It's clear to see that despite the average ride length for members being shorter, they are taking many more trips. It appears that most member commuters using the bikes Monday-Friday are roughly a 15 minute ride from their end point. 
 Casual riders take much longer trips, but without having invidual consumer data to see if they purchase more than one day pass, we can't get an idea of how many people are repeat customers (ie: spending more money on two day passes than the total monthly membership price would cost). 
-It's easy to spot a trend regarding tourism as well, with more trips occurring in the summer months. 
+It's easy to spot a trend regarding tourism as well, with more trips occurring in the summer months and on the weekends for casual riders.  
 
 ## 4: Suggestions
-  * 1: Make the prices readily available to casual riders so they can quickly calculate the benefits of an annual membership. 
-  * 2: For annual members, start a "refer-a-friend" program. If they convert a casual rider to a member, they get a month free. This will lead to a higher conversion rate for the casual riders who use Cyclistic for work or pleasure that live in Chicago. 
-  * 3: 
+  1: Make the prices readily available to casual riders so they can quickly calculate the benefits of an annual membership. 
+  2: For annual members, start a "refer-a-friend" program. If they convert a casual rider to a member, they get a month free. This will lead to a higher conversion rate for the casual riders who use Cyclistic for work or pleasure that live in Chicago. 
+  3: Convert the annual membership to a monthly membership, allowing for higher conversions during peak tourism. 
